@@ -17,7 +17,9 @@ get_ip() {
 
 # Instalasi RDP
 install_rdp() {
-    echo "${BOLD}${CYAN}\n💻 Instalasi RDP Dimulai...\n${RESET}"
+    echo ""
+    echo "${BOLD}${CYAN}💻 Instalasi RDP Dimulai...${RESET}"
+    echo ""
     apt update -y && apt install bzip2 shc -y
     wget -q https://github.com/Bintang73/auto-install-rdp/raw/refs/heads/main/main -O setup
     chmod +x setup
@@ -59,13 +61,17 @@ main_menu() {
     case "$pilihan" in
         1) install_rdp ;;
         2)
-            echo "${YELLOW}\n📌 Detail VPS${RESET}"
-            echo "IP VPS : ${WHITE}$(get_ip)${RESET}\n"
+            echo ""
+            echo "${YELLOW}📌 Detail VPS${RESET}"
+            echo "IP VPS : ${WHITE}$(get_ip)${RESET}"
+            echo ""
             read -p "Tekan Enter untuk kembali ke menu..." dummy
             main_menu
             ;;
         8)
-            echo "${BOLD}${CYAN}\n👋 Keluar... Terima kasih!\n${RESET}"
+            echo ""
+            echo "${BOLD}${CYAN}👋 Keluar... Terima kasih!${RESET}"
+            echo ""
             exit 0
             ;;
         *)
