@@ -42,8 +42,8 @@ main_menu() {
     echo "${GREEN}Version    : ${WHITE}1.0 (Free Version)${RESET}"
     echo "${GREEN}IP VPS     : ${WHITE}$(get_ip)${RESET}"
     echo "${GREEN}Powered By : ${WHITE}@starfz - PurwokertoDev${RESET}"
-
-    echo "${MAGENTA}\n📋 Pilih Opsi:${RESET}"
+    echo ""
+    echo "${MAGENTA}📋 Pilih Opsi:${RESET}"
     echo "${CYAN}1.${RESET} ${WHITE}Auto Install RDP${RESET}"
     echo "${CYAN}2.${RESET} ${WHITE}Check Detail VPS${RESET}"
     echo "${CYAN}8.${RESET} ${RED}Exit${RESET}"
