@@ -49,9 +49,7 @@ main_menu() {
     echo "${CYAN}8.${RESET} ${RED}Exit${RESET}"
 
     echo ""
-
     echo "${YELLOW}====================================================${RESET}"
-
     echo ""
 
     # Input user
