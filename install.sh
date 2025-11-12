@@ -48,7 +48,11 @@ main_menu() {
     echo "${CYAN}2.${RESET} ${WHITE}Check Detail VPS${RESET}"
     echo "${CYAN}8.${RESET} ${RED}Exit${RESET}"
 
-    echo "${YELLOW}\n====================================================${RESET}"
+    echo ""
+
+    echo "${YELLOW}====================================================${RESET}"
+
+    echo ""
 
     # Input user
     printf "${BOLD}${CYAN}Masukkan pilihan Anda (1-2, 8): ${RESET}"
